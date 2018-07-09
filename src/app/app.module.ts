@@ -8,10 +8,16 @@ import { AppComponent } from './app.component';
  * importing modules
  */
 import { AppRoutingModule } from "./routes/app-routing.module";
+import { SidebarComponent } from './elems/sidebar/sidebar.component';
+import { FooterComponent } from './elems/footer/footer.component';
+import { NavbarComponent } from "./elems/navbar/navbar.component";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SidebarComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
